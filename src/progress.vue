@@ -137,8 +137,8 @@ export default {
   float: left;
 }
 .progressitem p{
-    text-align: center;
-  }
+  text-align: center;
+}
 .progressitem p:nth-child(1) span{
       display: block;
       text-align: center;
