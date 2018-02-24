@@ -23,7 +23,7 @@ const webpackConfig = merge(baseWebpackConfig, {
   },
   devtool: config.build.productionSourceMap ? config.build.devtool : false,
   output: {
-    path: config.build.assetsRoot,
+    path: config.bundle.assetsRoot,
     publicPath: config.bundle.assetsPublicPath,
     filename: 'vue-flow-liu.min.js',
     library: 'VueFlowLiu',
